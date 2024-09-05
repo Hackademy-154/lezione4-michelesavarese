@@ -1,0 +1,160 @@
+*{
+    font-family: fantasy;
+
+}
+
+body{
+    background-color: #FCECC9;
+}
+
+nav{
+    min-height: 40px;
+    background-color: #445E93;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 20px;
+    border-bottom: 5px solid black;
+    position: sticky;
+}
+
+.logocontainer{
+    height: 100%;
+    display: flex;
+    align-items: start;
+}
+
+.logo{
+    border-radius: 50px;
+    height: 50px;
+    align-items: center;
+    margin-right: 100px;
+    box-shadow: 2px 2px black;
+}
+
+
+
+.listasiti{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 10px;
+}
+
+li{
+    height: auto;
+    width: auto;
+    padding-left: 30px;
+    list-style: none;
+}
+
+
+.dailist{
+display: flex;
+flex-direction: column;
+}
+
+.padreheader{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.home{
+    background-image: url(https://www.unimpresa.it/wp-content/uploads/2024/07/ufficio-con-persone-che-lavorano-al-computer-1792x896.webp);
+}
+
+.titolo{
+    height: 20vh;
+    border: 3px solid #7EB2DD;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.514);
+}
+
+.cardcontainer{
+margin-top: 10px;
+height: 30vh;
+display: flex;
+justify-content: space-between;
+}
+
+.cards{
+    height: 30vh;
+    width: 30%;
+    border: 2px solid black;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+color: #445E93;
+text-shadow: 2px 2px #7EB2DD;
+}
+
+.consulenze{
+background-image: url(https://vitolavecchia.altervista.org/wp-content/uploads/2019/09/Differenze-tra-aziende-di-consulenza-e-aziende-di-servizi.jpg);
+}
+
+.topper{
+    height: 10vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+margin-bottom: 20vh;
+}
+
+.dueduecards{
+    height: 80vh;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.imaginami{
+height: 100%;
+width: 45%;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: right;
+}
+
+.listami{
+    height: 100%;
+    width: 45%; 
+}
+
+.at{
+    background-image: url(https://www.maghetti.it/sites/default/files/styles/compressed/public/text-and-image/2020-01/img_servizio_assistenza.jpg?itok=uFNYZTzK);
+}
+
+.certificazioni{
+    background-image: url(https://www.arenasolutions.com/wp-content/uploads/what-is-iso-9001-compliance.png);
+    background-size: contain;
+    background-color: #FCB0B3;
+}
+
+.iso{
+display: flex;
+justify-content: space-between;
+}
+
+.isolist{
+    text-align: end;
+    margin-right: 20px;
+
+}
+
+footer{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.descrizione{
+    color: #7EB2DD;
+    text-align: center;
+}
